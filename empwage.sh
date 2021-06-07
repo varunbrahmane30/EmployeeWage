@@ -1,5 +1,12 @@
+#!/bin/bash -x
 
+empCheck=$((RANDOM%2))
+isPresent=1
 
-#Welcome to employee wage program.
-
+if [ $empCheck -eq $isPresent ]
+then
+		echo "Employee is present."
+else
+		echo "Employee is Absent."
+fi
 
